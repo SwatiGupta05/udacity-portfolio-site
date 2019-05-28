@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* under header element logo image, row1, self-intro,designation
+comes   */
+.logo-image {
+     height: 130px;
+     width: 120px;
+}
+
+
+ .row1 {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 15px;
+     margin-bottom: 10px;
+}
+
+
+ .self-intro {
+     font-size: 3.5rem;
+     font-weight: 250;
+     margin-top: 15px;
+     margin-bottom: 0.5rem;
+     color:#2d3c49;
+}
+
+
+ .designation {
+     text-align:right;
+     color: #2d3c49;
+}
+
+
+ .line {
+     border-top: 4px solid #7d97ad;
+}
+
+
+/* row 2 is basically for center image under which center image comes*/
+ .center-image {
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+     margin-top: 35px;
+}
+
+
+ .work-heading {
+     color: #7d97ad;
+     font-weight: 350;
+     font-size: 2rem;
+     margin-top: 35px;
+}
+
+
+/*under row 3, three small images comes and media query is applied on the same*/
+ .row3 {
+     display: flex;
+     justify-content: space-between;
+     text-align: center;
+
+}
+
+
+ .small-images {
+     width: 200px;
+}
+
+
+ @media screen and (max-width: 600px) {
+     .row1{
+         width: 100%;
+         clear: both;
+         margin-left: 0;
+         margin-top: 20px;
+    }
+     .row3 {
+         flex-direction: column;
+         text-align: center;
+    }
+     .work-place {
+         margin-bottom: 20px;
+    }
+}
+
+
+.work-tittle{
+      font-size: 2rem;
+      font-weight: bold;
+}
